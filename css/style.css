@@ -173,8 +173,7 @@ span, a, a:hover {
 }
 
 .set-icon{
-  display: flex;
-  float: left;
+  display: inline;
   width: 45px;
   height: 45px;
   align-items: center;
@@ -185,7 +184,12 @@ span, a, a:hover {
   -webkit-border-radius: 100%;
   border-radius: 100%;
   border: 1px solid #fff;
-  margin-right: 15px;
+  padding: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.desc-icon{
+  margin-top: 30px;
 }
 
 .valign {
